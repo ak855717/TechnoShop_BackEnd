@@ -1,0 +1,724 @@
+[
+  {
+    "id": 1,
+    "name": "iPhone 15 Pro Max",
+    "brand": "Apple",
+    "category": "Smartphones",
+    "price": 99417,
+    "originalPrice": 107817,
+    "discount": 8,
+    "rating": 4.8,
+    "reviews": 2341,
+    "stock": 15,
+    "image": "https://images.unsplash.com/photo-1695048133142-1a20484d2569?w=600&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1695048133142-1a20484d2569?w=600&q=80",
+      "https://images.unsplash.com/photo-1678685888221-cda773a3dcdb?w=600&q=80"
+    ],
+    "description": "The most powerful iPhone ever with A17 Pro chip, titanium design, and a 48MP camera system with 5x optical zoom.",
+    "features": ["A17 Pro Chip", "48MP Main Camera", "5x Optical Zoom", "Titanium Frame", "USB-C", "Action Button"],
+    "specs": {
+      "Display": "6.7-inch Super Retina XDR OLED",
+      "Chip": "A17 Pro",
+      "Storage": "256GB",
+      "Camera": "48MP + 12MP + 12MP",
+      "Battery": "4422 mAh",
+      "OS": "iOS 17"
+    },
+    "tags": ["new", "bestseller"],
+    "color": ["Black Titanium", "White Titanium", "Blue Titanium", "Natural Titanium"],
+    "isNew": true,
+    "isFeatured": true
+  },
+  {
+    "id": 2,
+    "name": "MacBook Pro 16\" M3 Max",
+    "brand": "Apple",
+    "category": "Laptops",
+    "price": 290417,
+    "originalPrice": 306917,
+    "discount": 5,
+    "rating": 4.9,
+    "reviews": 876,
+    "stock": 8,
+    "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=600&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=600&q=80",
+      "https://images.unsplash.com/photo-1611186871525-9f7b6b8b7e8b?w=600&q=80"
+    ],
+    "description": "The ultimate pro laptop with M3 Max chip, stunning Liquid Retina XDR display, and up to 22 hours of battery life.",
+    "features": ["M3 Max Chip", "Liquid Retina XDR", "22hr Battery", "1080p FaceTime Camera", "MagSafe 3", "HDMI 2.1"],
+    "specs": {
+      "Display": "16.2-inch Liquid Retina XDR",
+      "Chip": "Apple M3 Max",
+      "RAM": "48GB Unified Memory",
+      "Storage": "1TB SSD",
+      "Battery": "Up to 22 hours",
+      "OS": "macOS Sonoma"
+    },
+    "tags": ["new", "featured"],
+    "color": ["Space Black", "Silver"],
+    "isNew": true,
+    "isFeatured": true
+  },
+  {
+    "id": 3,
+    "name": "AirPods Pro 2nd Gen",
+    "brand": "Apple",
+    "category": "Headphones",
+    "price": 20667,
+    "originalPrice": 23157,
+    "discount": 11,
+    "rating": 4.7,
+    "reviews": 5621,
+    "stock": 40,
+    "image": "https://images.unsplash.com/photo-1606220838315-056192d5e927?w=600&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1606220838315-056192d5e927?w=600&q=80"
+    ],
+    "description": "Industry-leading noise cancellation with Adaptive Audio, Conversation Awareness, and up to 30 hours total listening time.",
+    "features": ["Active Noise Cancellation", "Adaptive Transparency", "Spatial Audio", "H2 Chip", "MagSafe Charging", "30hr Battery"],
+    "specs": {
+      "Chip": "Apple H2",
+      "ANC": "Active Noise Cancellation",
+      "Battery (Buds)": "6 hours",
+      "Battery (Total)": "30 hours",
+      "Connectivity": "Bluetooth 5.3",
+      "Water Resistance": "IPX4"
+    },
+    "tags": ["bestseller"],
+    "color": ["White"],
+    "isNew": false,
+    "isFeatured": true
+  },
+  {
+    "id": 4,
+    "name": "Apple Watch Ultra 2",
+    "brand": "Apple",
+    "category": "Wearables",
+    "price": 66317,
+    "originalPrice": 70467,
+    "discount": 6,
+    "rating": 4.8,
+    "reviews": 1203,
+    "stock": 20,
+    "image": "https://images.unsplash.com/photo-1551816230-ef5deaed4a26?w=600&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1551816230-ef5deaed4a26?w=600&q=80"
+    ],
+    "description": "The most rugged Apple Watch for extreme adventures with 3000 nit display, dual GPS, and 60-hour battery life.",
+    "features": ["3000 nit Display", "Dual GPS", "60hr Battery", "100m Water Resistance", "Action Button", "Sapphire Crystal"],
+    "specs": {
+      "Display": "49mm LTPO OLED",
+      "Chip": "S9 SiP",
+      "Battery": "Up to 60 hours",
+      "Water Resistance": "100m",
+      "GPS": "L1 + L5 Dual Frequency",
+      "OS": "watchOS 10"
+    },
+    "tags": ["new"],
+    "color": ["Natural Titanium", "Black Titanium"],
+    "isNew": true,
+    "isFeatured": false
+  },
+  {
+    "id": 5,
+    "name": "Samsung Galaxy S24 Ultra",
+    "brand": "Samsung",
+    "category": "Smartphones",
+    "price": 91117,
+    "originalPrice": 99417,
+    "discount": 8,
+    "rating": 4.7,
+    "reviews": 3102,
+    "stock": 25,
+    "image": "https://images.unsplash.com/photo-1610945265064-0e34e5519bbf?w=600&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1610945265064-0e34e5519bbf?w=600&q=80"
+    ],
+    "description": "The ultimate Galaxy experience with 200MP camera, built-in S Pen, and Snapdragon 8 Gen 3 processor.",
+    "features": ["200MP Camera", "Built-in S Pen", "Snapdragon 8 Gen 3", "100x Space Zoom", "Titanium Frame", "AI Features"],
+    "specs": {
+      "Display": "6.8-inch Dynamic AMOLED 2X",
+      "Chip": "Snapdragon 8 Gen 3",
+      "RAM": "12GB",
+      "Storage": "256GB",
+      "Camera": "200MP + 12MP + 10MP + 10MP",
+      "Battery": "5000 mAh"
+    },
+    "tags": ["new", "bestseller"],
+    "color": ["Titanium Black", "Titanium Gray", "Titanium Violet", "Titanium Yellow"],
+    "isNew": true,
+    "isFeatured": true
+  },
+  {
+    "id": 6,
+    "name": "Samsung Galaxy Book4 Pro",
+    "brand": "Samsung",
+    "category": "Laptops",
+    "price": 132517,
+    "originalPrice": 149117,
+    "discount": 11,
+    "rating": 4.5,
+    "reviews": 542,
+    "stock": 12,
+    "image": "https://images.unsplash.com/photo-1593642632559-0c6d3fc62b89?w=600&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1593642632559-0c6d3fc62b89?w=600&q=80"
+    ],
+    "description": "Ultra-slim premium laptop with Intel Core Ultra processor, AMOLED display, and all-day battery life.",
+    "features": ["Intel Core Ultra 7", "AMOLED Display", "All-day Battery", "AI-powered Features", "Galaxy Ecosystem", "Thunderbolt 4"],
+    "specs": {
+      "Display": "16-inch 3K AMOLED",
+      "Chip": "Intel Core Ultra 7",
+      "RAM": "16GB",
+      "Storage": "512GB SSD",
+      "Battery": "Up to 17 hours",
+      "OS": "Windows 11"
+    },
+    "tags": ["new"],
+    "color": ["Moonstone Gray", "Sapphire Blue"],
+    "isNew": true,
+    "isFeatured": false
+  },
+  {
+    "id": 7,
+    "name": "Samsung Galaxy Buds3 Pro",
+    "brand": "Samsung",
+    "category": "Headphones",
+    "price": 19007,
+    "originalPrice": 20667,
+    "discount": 8,
+    "rating": 4.6,
+    "reviews": 1870,
+    "stock": 35,
+    "image": "https://images.unsplash.com/photo-1590658165737-15a047b7c35a?w=600&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1590658165737-15a047b7c35a?w=600&q=80"
+    ],
+    "description": "Premium earbuds with Intelligent Active Noise Cancellation, 360 Audio, and seamless Galaxy ecosystem integration.",
+    "features": ["Intelligent ANC", "360 Audio", "Galaxy AI", "26hr Battery", "Ambient Sound", "Wear Sensors"],
+    "specs": {
+      "Driver": "11mm + 5.3mm Dual Speaker",
+      "ANC": "Intelligent ANC",
+      "Battery (Buds)": "6 hours",
+      "Battery (Total)": "26 hours",
+      "Connectivity": "Bluetooth 5.4",
+      "Water Resistance": "IPX7"
+    },
+    "tags": ["new"],
+    "color": ["Silver", "White"],
+    "isNew": true,
+    "isFeatured": false
+  },
+  {
+    "id": 8,
+    "name": "Sony WH-1000XM5",
+    "brand": "Sony",
+    "category": "Headphones",
+    "price": 28967,
+    "originalPrice": 33117,
+    "discount": 13,
+    "rating": 4.9,
+    "reviews": 8901,
+    "stock": 50,
+    "image": "https://images.unsplash.com/photo-1618366712010-f4ae9c647dcb?w=600&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1618366712010-f4ae9c647dcb?w=600&q=80"
+    ],
+    "description": "The gold standard in noise cancellation with 8 microphones, 30-hour battery, and exceptional sound quality.",
+    "features": ["Industry-best ANC", "30hr Battery", "8 Microphones", "Multipoint Connection", "LDAC Support", "Speak-to-Chat"],
+    "specs": {
+      "Driver": "30mm",
+      "ANC": "Dual Noise Sensor Technology",
+      "Battery": "30 hours",
+      "Connectivity": "Bluetooth 5.2",
+      "Codec": "LDAC, AAC, SBC",
+      "Weight": "250g"
+    },
+    "tags": ["bestseller"],
+    "color": ["Midnight Black", "Platinum Silver"],
+    "isNew": false,
+    "isFeatured": true
+  },
+  {
+    "id": 9,
+    "name": "Sony Alpha 7 IV",
+    "brand": "Sony",
+    "category": "Cameras",
+    "price": 207417,
+    "originalPrice": 232317,
+    "discount": 11,
+    "rating": 4.8,
+    "reviews": 1234,
+    "stock": 10,
+    "image": "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=600&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=600&q=80"
+    ],
+    "description": "Full-frame mirrorless camera with 33MP BSI sensor, 4K 60p video, and advanced autofocus for creators.",
+    "features": ["33MP Full-Frame BSI", "4K 60p Video", "Real-time Tracking AF", "5-axis IBIS", "Dual Card Slots", "759 Phase-detect AF Points"],
+    "specs": {
+      "Sensor": "33MP Full-Frame Exmor R BSI CMOS",
+      "ISO": "100-51200",
+      "Video": "4K 60p, 10-bit",
+      "AF Points": "759 Phase-detect",
+      "IBIS": "5-axis, 5.5 stops",
+      "Battery Life": "580 shots"
+    },
+    "tags": ["featured"],
+    "color": ["Black"],
+    "isNew": false,
+    "isFeatured": true
+  },
+  {
+    "id": 10,
+    "name": "Sony PlayStation 5",
+    "brand": "Sony",
+    "category": "Gaming",
+    "price": 41417,
+    "originalPrice": 45567,
+    "discount": 9,
+    "rating": 4.8,
+    "reviews": 12043,
+    "stock": 5,
+    "image": "https://images.unsplash.com/photo-1606144042614-b2417e99c4e3?w=600&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1606144042614-b2417e99c4e3?w=600&q=80"
+    ],
+    "description": "Next-gen gaming with ultra-fast SSD, 4K gaming, ray tracing, and the revolutionary DualSense controller.",
+    "features": ["Custom AMD GPU", "Ultra-fast SSD", "4K Gaming", "Ray Tracing", "DualSense Controller", "3D Audio"],
+    "specs": {
+      "CPU": "AMD Zen 2, 8-core",
+      "GPU": "AMD RDNA 2, 10.28 TFLOPS",
+      "Storage": "825GB SSD",
+      "RAM": "16GB GDDR6",
+      "Resolution": "Up to 8K",
+      "Frame Rate": "Up to 120fps"
+    },
+    "tags": ["bestseller"],
+    "color": ["White"],
+    "isNew": false,
+    "isFeatured": true
+  },
+  {
+    "id": 11,
+    "name": "DJI Mini 4 Pro",
+    "brand": "DJI",
+    "category": "Drones",
+    "price": 63057,
+    "originalPrice": 70467,
+    "discount": 11,
+    "rating": 4.8,
+    "reviews": 2103,
+    "stock": 18,
+    "image": "https://images.unsplash.com/photo-1579829366248-204fe8413f31?w=600&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1579829366248-204fe8413f31?w=600&q=80"
+    ],
+    "description": "Under 249g foldable drone with 4K/60fps HDR video, omnidirectional obstacle sensing, and 34-min flight time.",
+    "features": ["Under 249g", "4K/60fps HDR Video", "Omnidirectional Sensing", "34-min Flight", "20km Range", "ActiveTrack 360°"],
+    "specs": {
+      "Weight": "248.3g",
+      "Camera": "1/1.3-inch CMOS",
+      "Video": "4K/60fps HDR",
+      "Flight Time": "34 minutes",
+      "Range": "20km",
+      "Wind Resistance": "Level 5"
+    },
+    "tags": ["new", "featured"],
+    "color": ["Black", "Gray"],
+    "isNew": true,
+    "isFeatured": true
+  },
+  {
+    "id": 12,
+    "name": "DJI RS 3 Pro Gimbal",
+    "brand": "DJI",
+    "category": "Camera Accessories",
+    "price": 45567,
+    "originalPrice": 49717,
+    "discount": 8,
+    "rating": 4.7,
+    "reviews": 891,
+    "stock": 22,
+    "image": "https://images.unsplash.com/photo-1625234689079-cd47de3e5c0f?w=600&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1625234689079-cd47de3e5c0f?w=600&q=80"
+    ],
+    "description": "Professional 3-axis gimbal for mirrorless and DSLR cameras with 4.5kg payload and automatic axis locks.",
+    "features": ["4.5kg Payload", "Automatic Axis Locks", "OLED Display", "3D Focus System", "12hr Battery", "RS Ecosystem"],
+    "specs": {
+      "Payload": "4.5kg",
+      "Battery": "12 hours",
+      "Stabilization": "3-axis",
+      "Display": "1.8-inch OLED",
+      "Connectivity": "Bluetooth 5.0",
+      "Weight": "1.48kg"
+    },
+    "tags": [],
+    "color": ["Black"],
+    "isNew": false,
+    "isFeatured": false
+  },
+  {
+    "id": 13,
+    "name": "Samsung 65\" Neo QLED 8K",
+    "brand": "Samsung",
+    "category": "TVs",
+    "price": 248917,
+    "originalPrice": 290417,
+    "discount": 14,
+    "rating": 4.6,
+    "reviews": 430,
+    "stock": 7,
+    "image": "https://images.unsplash.com/photo-1593784991095-a205069470b6?w=600&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1593784991095-a205069470b6?w=600&q=80"
+    ],
+    "description": "Experience breathtaking 8K resolution with Neural Quantum Processor and Quantum Matrix Technology.",
+    "features": ["8K Resolution", "Neural Quantum Processor 8K", "Quantum Matrix", "144Hz Gaming", "Dolby Atmos", "SmartThings Hub"],
+    "specs": {
+      "Display": "65-inch Neo QLED",
+      "Resolution": "7680 x 4320 (8K)",
+      "Processor": "Neural Quantum 8K",
+      "Refresh Rate": "144Hz",
+      "HDR": "Quantum HDR 3000X",
+      "OS": "Tizen"
+    },
+    "tags": ["sale"],
+    "color": ["Black"],
+    "isNew": false,
+    "isFeatured": false
+  },
+  {
+    "id": 14,
+    "name": "Apple iPad Pro 13\" M4",
+    "brand": "Apple",
+    "category": "Tablets",
+    "price": 107817,
+    "originalPrice": 115917,
+    "discount": 7,
+    "rating": 4.8,
+    "reviews": 1560,
+    "stock": 16,
+    "image": "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?w=600&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?w=600&q=80"
+    ],
+    "description": "The thinnest Apple product ever with M4 chip, Ultra Retina XDR OLED display, and Apple Pencil Pro support.",
+    "features": ["M4 Chip", "Ultra Retina XDR OLED", "Thinnest Apple Product", "Apple Pencil Pro", "Magic Keyboard", "Tandem OLED"],
+    "specs": {
+      "Display": "13-inch Ultra Retina XDR OLED",
+      "Chip": "Apple M4",
+      "RAM": "16GB",
+      "Storage": "256GB",
+      "Camera": "12MP Wide + 10MP Ultra Wide",
+      "Battery": "Up to 10 hours"
+    },
+    "tags": ["new"],
+    "color": ["Space Black", "Silver"],
+    "isNew": true,
+    "isFeatured": true
+  },
+  {
+    "id": 15,
+    "name": "Sony Xperia 1 VI",
+    "brand": "Sony",
+    "category": "Smartphones",
+    "price": 107817,
+    "originalPrice": 115917,
+    "discount": 7,
+    "rating": 4.5,
+    "reviews": 723,
+    "stock": 14,
+    "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=600&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=600&q=80"
+    ],
+    "description": "Pro-grade smartphone with Zeiss optics, 4K HDR OLED display, and unparalleled audio tuned by Sony.",
+    "features": ["Zeiss Optics", "4K OLED Display", "85-170mm Optical Zoom", "LDAC Hi-Res Audio", "4K 120fps Video", "Snapdragon 8 Gen 3"],
+    "specs": {
+      "Display": "6.5-inch 4K HDR OLED",
+      "Chip": "Snapdragon 8 Gen 3",
+      "RAM": "12GB",
+      "Storage": "256GB",
+      "Camera": "52MP + 12MP + 12MP (Zeiss)",
+      "Battery": "5000 mAh"
+    },
+    "tags": ["new"],
+    "color": ["Black", "Platinum Silver", "Khaki Green"],
+    "isNew": true,
+    "isFeatured": false
+  },
+  {
+    "id": 16,
+    "name": "Apple AirTag 4-Pack",
+    "brand": "Apple",
+    "category": "Accessories",
+    "price": 8217,
+    "originalPrice": 9877,
+    "discount": 17,
+    "rating": 4.6,
+    "reviews": 9823,
+    "stock": 100,
+    "image": "https://images.unsplash.com/photo-1621330396173-e41b1cafd17f?w=600&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1621330396173-e41b1cafd17f?w=600&q=80"
+    ],
+    "description": "Keep track of your belongings with AirTag — easy to set up, easy to find, and works with the 2 billion+ Apple device network.",
+    "features": ["Precision Finding", "U1 Ultra Wideband", "1yr Battery", "IP67 Water Resistance", "Find My Network", "Replaceable Battery"],
+    "specs": {
+      "Connectivity": "Bluetooth 5.0, UWB",
+      "Battery": "CR2032, ~1 year",
+      "Water Resistance": "IP67",
+      "Diameter": "31.9mm",
+      "Weight": "11g",
+      "Compatibility": "iPhone, iPad (iOS 14.5+)"
+    },
+    "tags": ["sale", "bestseller"],
+    "color": ["White"],
+    "isNew": false,
+    "isFeatured": false
+  },
+  {
+    "id": 17,
+    "name": "DJI Osmo Action 4",
+    "brand": "DJI",
+    "category": "Cameras",
+    "price": 33117,
+    "originalPrice": 37267,
+    "discount": 11,
+    "rating": 4.7,
+    "reviews": 1567,
+    "stock": 28,
+    "image": "https://images.unsplash.com/photo-1552168324-d612d77725e3?w=600&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1552168324-d612d77725e3?w=600&q=80"
+    ],
+    "description": "Action camera with 1/1.3-inch sensor, 4K/120fps, RockSteady stabilization, and 18m waterproof without housing.",
+    "features": ["1/1.3-inch Sensor", "4K/120fps", "RockSteady 3.0+", "18m Waterproof", "Dual Screen", "Quick Release"],
+    "specs": {
+      "Sensor": "1/1.3-inch CMOS",
+      "Video": "4K/120fps",
+      "Stabilization": "RockSteady 3.0+",
+      "Waterproof": "18m",
+      "Battery": "2h 15min",
+      "Weight": "145g"
+    },
+    "tags": ["new"],
+    "color": ["Adventure Black", "Volcanic Grey"],
+    "isNew": true,
+    "isFeatured": false
+  },
+  {
+    "id": 18,
+    "name": "Samsung Galaxy Watch 7",
+    "brand": "Samsung",
+    "category": "Wearables",
+    "price": 24817,
+    "originalPrice": 27307,
+    "discount": 9,
+    "rating": 4.5,
+    "reviews": 2109,
+    "stock": 32,
+    "image": "https://images.unsplash.com/photo-1434493789847-2f02dc6ca35d?w=600&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1434493789847-2f02dc6ca35d?w=600&q=80"
+    ],
+    "description": "Advanced health smartwatch with 3nm chip, BioActive Sensor, sleep coaching, and Galaxy AI features.",
+    "features": ["3nm Exynos Chip", "BioActive Sensor", "Sleep Coaching", "Galaxy AI", "5ATM + IP68", "Body Composition"],
+    "specs": {
+      "Display": "1.5-inch Super AMOLED",
+      "Chip": "Exynos W1000 (3nm)",
+      "Battery": "Up to 40 hours",
+      "Sensors": "BioActive, Accelerometer, Barometer",
+      "Water Resistance": "5ATM + IP68",
+      "OS": "Wear OS 5"
+    },
+    "tags": ["new"],
+    "color": ["Green", "Silver", "Cream"],
+    "isNew": true,
+    "isFeatured": false
+  },
+  {
+    "id": 19,
+    "name": "Sony WF-1000XM5",
+    "brand": "Sony",
+    "category": "Headphones",
+    "price": 23157,
+    "originalPrice": 24817,
+    "discount": 7,
+    "rating": 4.8,
+    "reviews": 4321,
+    "stock": 45,
+    "image": "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?w=600&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?w=600&q=80"
+    ],
+    "description": "World's best noise canceling earbuds with 8.4mm driver, LDAC, and 24-hour battery life in an ultra-compact form.",
+    "features": ["Best-in-class ANC", "8.4mm Driver", "LDAC Support", "24hr Battery", "Multipoint Connection", "Speak-to-Chat"],
+    "specs": {
+      "Driver": "8.4mm",
+      "ANC": "Integrated Processor V2",
+      "Battery (Buds)": "8 hours",
+      "Battery (Total)": "24 hours",
+      "Connectivity": "Bluetooth 5.3",
+      "Water Resistance": "IPX4"
+    },
+    "tags": ["bestseller"],
+    "color": ["Black", "Silver"],
+    "isNew": false,
+    "isFeatured": true
+  },
+  {
+    "id": 20,
+    "name": "Apple Mac Mini M4",
+    "brand": "Apple",
+    "category": "Desktops",
+    "price": 49717,
+    "originalPrice": 58017,
+    "discount": 14,
+    "rating": 4.8,
+    "reviews": 987,
+    "stock": 20,
+    "image": "https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?w=600&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?w=600&q=80"
+    ],
+    "description": "The most affordable Mac with M4 chip, 16GB unified memory, and the smallest ever Mac mini design.",
+    "features": ["M4 Chip", "16GB Unified Memory", "Smallest Mac Mini", "Thunderbolt 4", "Wi-Fi 6E", "Bluetooth 5.3"],
+    "specs": {
+      "Chip": "Apple M4",
+      "RAM": "16GB Unified Memory",
+      "Storage": "256GB SSD",
+      "Ports": "3x Thunderbolt 4, 2x USB-A, HDMI",
+      "Wi-Fi": "Wi-Fi 6E",
+      "Bluetooth": "5.3"
+    },
+    "tags": ["new", "sale"],
+    "color": ["Silver"],
+    "isNew": true,
+    "isFeatured": false
+  },
+  {
+    "id": 21,
+    "name": "DJI Avata 2 FPV Drone",
+    "brand": "DJI",
+    "category": "Drones",
+    "price": 78767,
+    "originalPrice": 87167,
+    "discount": 10,
+    "rating": 4.7,
+    "reviews": 765,
+    "stock": 12,
+    "image": "https://images.unsplash.com/photo-1473968512647-3e447244af8f?w=600&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1473968512647-3e447244af8f?w=600&q=80"
+    ],
+    "description": "Immersive FPV experience with 4K/60fps stabilized video, 100mph speed, and redesigned intuitive controls.",
+    "features": ["4K/60fps Video", "100mph Top Speed", "Turtle Mode", "RockSteady 3.0+", "23-min Flight", "FPV Goggles 3"],
+    "specs": {
+      "Video": "4K/60fps",
+      "Max Speed": "100mph (S-mode)",
+      "Flight Time": "23 minutes",
+      "Stabilization": "RockSteady 3.0+",
+      "Weight": "377g",
+      "Transmission": "O3+"
+    },
+    "tags": ["new"],
+    "color": ["Black"],
+    "isNew": true,
+    "isFeatured": false
+  },
+  {
+    "id": 22,
+    "name": "Samsung 49\" Odyssey OLED G9",
+    "brand": "Samsung",
+    "category": "Monitors",
+    "price": 1499,
+    "originalPrice": 1799,
+    "discount": 17,
+    "rating": 4.7,
+    "reviews": 678,
+    "stock": 9,
+    "image": "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?w=600&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?w=600&q=80"
+    ],
+    "description": "Dual QHD ultra-wide OLED gaming monitor with 240Hz, 0.03ms response time, and HDR True Black 400.",
+    "features": ["OLED Panel", "240Hz Refresh", "0.03ms Response", "Dual QHD", "HDR True Black 400", "Smart Hub"],
+    "specs": {
+      "Display": "49-inch Dual QHD OLED",
+      "Resolution": "5120 x 1440",
+      "Refresh Rate": "240Hz",
+      "Response Time": "0.03ms GtG",
+      "HDR": "HDR True Black 400",
+      "Curvature": "1800R"
+    },
+    "tags": ["sale", "featured"],
+    "color": ["Black"],
+    "isNew": false,
+    "isFeatured": false
+  },
+  {
+    "id": 23,
+    "name": "Sony LinkBuds S",
+    "brand": "Sony",
+    "category": "Headphones",
+    "price": 149,
+    "originalPrice": 199,
+    "discount": 25,
+    "rating": 4.6,
+    "reviews": 2341,
+    "stock": 60,
+    "image": "https://images.unsplash.com/photo-1484704849700-f032a568e944?w=600&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1484704849700-f032a568e944?w=600&q=80"
+    ],
+    "description": "The world's smallest and lightest noise canceling earbuds at just 4.8g, with Auto Ambient Sound Mode.",
+    "features": ["World's Smallest ANC Earbuds", "4.8g Weight", "Auto Ambient Sound", "LDAC", "20hr Battery", "Quick Charge"],
+    "specs": {
+      "Driver": "5mm",
+      "Weight": "4.8g per earbud",
+      "Battery (Buds)": "6 hours",
+      "Battery (Total)": "20 hours",
+      "Connectivity": "Bluetooth 5.2",
+      "Water Resistance": "IPX4"
+    },
+    "tags": ["sale"],
+    "color": ["Black", "White", "Ecru"],
+    "isNew": false,
+    "isFeatured": false
+  },
+  {
+    "id": 24,
+    "name": "Apple iPhone 15",
+    "brand": "Apple",
+    "category": "Smartphones",
+    "price": 66317,
+    "originalPrice": 74617,
+    "discount": 11,
+    "rating": 4.7,
+    "reviews": 4560,
+    "stock": 30,
+    "image": "https://images.unsplash.com/photo-1702423223487-d8db6ddd4671?w=600&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1702423223487-d8db6ddd4671?w=600&q=80"
+    ],
+    "description": "Dynamic Island, 48MP camera, USB-C, and A16 Bionic chip in a color-infused glass design.",
+    "features": ["Dynamic Island", "48MP Camera", "USB-C", "A16 Bionic", "Action Button", "Color-infused Glass"],
+    "specs": {
+      "Display": "6.1-inch Super Retina XDR OLED",
+      "Chip": "A16 Bionic",
+      "Storage": "128GB",
+      "Camera": "48MP + 12MP",
+      "Battery": "3877 mAh",
+      "OS": "iOS 17"
+    },
+    "tags": ["bestseller"],
+    "color": ["Black", "Blue", "Green", "Yellow", "Pink"],
+    "isNew": false,
+    "isFeatured": false
+  }
+]
