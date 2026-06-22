@@ -63,13 +63,7 @@ app.use(cookieParser());
 // CORS
 app.use(
   cors({
-    origin: (origin, callback) => {
-      if (!origin || allowedOrigins.includes(origin)) {
-        return callback(null, true);
-      }
-
-      return callback(new Error(`CORS blocked for origin: ${origin}`));
-    },
+    origin: "https://techno-shop-front-end.vercel.app",
     credentials: true,
   })
 );
