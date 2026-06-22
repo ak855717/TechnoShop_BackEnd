@@ -27,7 +27,6 @@ connectDB();
 
 const app = express();
 const allowedOrigins = (
-  process.env.CLIENT_URLS ||
   process.env.CLIENT_URL ||
   "https://techno-shop-front-end.vercel.app"
 )
@@ -63,7 +62,7 @@ app.use(cookieParser());
 // CORS
 app.use(
   cors({
-    origin: "https://techno-shop-front-end.vercel.app",
+    origin: allowedOrigins,
     credentials: true,
   })
 );
