@@ -27,7 +27,6 @@ connectDB();
 
 const app = express();
 const allowedOrigins = (
-  process.env.CLIENT_URLS ||
   process.env.CLIENT_URL ||
   "https://techno-shop-front-end.vercel.app/api,http://localhost:5173"
 )
