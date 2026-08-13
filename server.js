@@ -37,7 +37,7 @@ const allowedOrigins = (
   .filter(Boolean);
 
 // ─── Security Middleware ───────────────────────────────────────────────────
-app.use(helmet());
+app.use(helmet({ contentSecurityPolicy: false }));
 app.use(mongoSanitize());
 
 // Rate limiting
@@ -98,7 +98,11 @@ app.get("/api/health", (req, res) => {
   });
 });
 
-app.get("*name", (req, res) => {
+// SPA Fallback for client-side routing
+app.get("*", (req, res, next) => {
+  if (req.path.startsWith("/api")) {
+    return next();
+  }
   res.sendFile(path.join(publicDir, "index.html"));
 });
 

@@ -4,11 +4,12 @@ const User = require("../models/User");
 const { AppError } = require("../middleware/errorHandler");
 const { sendTokenResponse } = require("../middleware/auth");
 
-const GOOGLE_CLIENT_ID = (
-  process.env.GOOGLE_CLIENT_ID || process.env.VITE_GOOGLE_CLIENT_ID || ""
-).trim();
+const GOOGLE_CLIENT_ID =
+  "1000459950507-29do0fciio61a7ci7ctoaq5actj0t70q.apps.googleusercontent.com".trim();
 
-const googleClient = GOOGLE_CLIENT_ID ? new OAuth2Client(GOOGLE_CLIENT_ID) : null;
+const googleClient = GOOGLE_CLIENT_ID
+  ? new OAuth2Client(GOOGLE_CLIENT_ID)
+  : null;
 
 // ─── @desc    Register user
 // ─── @route   POST /api/auth/register
@@ -61,7 +62,9 @@ const googleAuth = async (req, res, next) => {
     }
 
     if (!googleClient) {
-      return next(new AppError("Google sign-in is not configured on the server.", 500));
+      return next(
+        new AppError("Google sign-in is not configured on the server.", 500),
+      );
     }
 
     const ticket = await googleClient.verifyIdToken({
@@ -114,7 +117,9 @@ const googleAuth = async (req, res, next) => {
       user,
       isNewUser ? 201 : 200,
       res,
-      isNewUser ? "Google account created successfully" : "Logged in with Google successfully"
+      isNewUser
+        ? "Google account created successfully"
+        : "Logged in with Google successfully",
     );
   } catch (err) {
     if (err.message?.toLowerCase().includes("token")) {
